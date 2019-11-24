@@ -1,0 +1,8 @@
+﻿Version 1.0.12
+March 22, 2010
+
+Bug Fixes:
+- Players that you lose contact with are no longer forgotten in the empires list.
+	Note: you'll have to regain contact with any empires you lost contact with in a prior version in order to see them listed again.
+- Enemy shipsets are no longer reset to default every turn.
+	Note: this change will reset your own shipset, but once set after upgrading, it should remain set!

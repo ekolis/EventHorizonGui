@@ -1,0 +1,5 @@
+﻿Version 1.0.11
+March 21, 2010
+
+New Features:
+- Expanded treasury line to 1 line per resource, with a summary of where the budget is coming from and going.

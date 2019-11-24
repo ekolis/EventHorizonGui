@@ -1,0 +1,14 @@
+﻿Version 1.0.4
+March 3, 2010
+
+New Features:
+- You can now rename sectors and ships.
+- You can now assign shipsets to empires. If shipsets are missing any images, they will fall back on the default friendly/enemy sets.
+- You can now save ship designs for reuse on future turns, instead of having to reenter the designs manually.
+
+Bug Fixes:
+- "Save your commands before quitting?" is no longer displayed if you exit before loading a savegame.
+
+Misc. Changes:
+- Sectors' names are displayed on the main map rather than their coordinates.
+- You can now see enemy ships on the map in sectors where your ships were destroyed by the enemy, for one turn after your ships in the sector are destroyed, as originally intended.

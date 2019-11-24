@@ -1,0 +1,6 @@
+﻿Version 1.0.1
+February 15, 2010
+
+Bug Fixes:
+- Removed Visual Studio's default references to "Microsoft" in the assembly info (copyright, etc.)
+- GUI no longer crashes when viewing a battle in which you lose contact with ships (either they are destroyed or they destroy your fleet).

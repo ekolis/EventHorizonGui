@@ -1,0 +1,12 @@
+﻿Version 1.0.8
+March 16, 2010
+
+New Features:
+- Battle replays now show "CRITICAL HIT!" and "TARGET DESTROYED!" text in the appropriate circumstances.
+
+Bug Fixes:
+- Right-click movement wasn't working when it was off the edge of the map to a wraparound sector.
+- Size of beams in battle replays was dependent on damage inflicted. Now it's dependent on number of shots fired in the salvo, as intended.
+
+Misc. Changes:
+- Replaced dull checkboxes for ship armed/mobile/mothership status with icons.

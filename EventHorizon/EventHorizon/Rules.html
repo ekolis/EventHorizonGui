@@ -1,0 +1,172 @@
+﻿<html>
+<head>
+	<title>RULES of EVENT HORIZON</title>
+	<link rel="Stylesheet" href="EventHorizon.css" />
+</head>
+<body>
+	<h1>
+		RULES of EVENT HORIZON</h1>
+	<h2>
+		Game Phases</h2>
+	<ol>
+		<li id="Construction">
+			<h3>
+				Construction
+			</h3>
+			<ul>
+				<li>Ships are constructed only by the Mothership, and appear in the same sector as it.
+				</li>
+				<li>Any ship MUST have hull components &gt;= (0.25 * (#othercomps ^2 - 1))</li>
+				<li>Note: Ed's UI will automatically calculate this for you.</li>
+				<li>Every ship must have at least one weapon or engine or it will be lost immediately.
+				</li>
+			</ul>
+			Tips:
+			<ul>
+				<li>Build a large number of tiny scouts early on to help explore for high value sectors
+					to claim. A single engine probe with no other components requires no hull and is
+					therefore dirt cheap and expendable.</li>
+				<li>Build the largest ships you can with a huge number of engines in order to mine sectors
+					most efficiently. Only the one ship with the most engines gets to mine, so make
+					the most of high value sectors with a big investment.</li>
+				<li>If you have unspent weapons, consider a minefield of single-weapon 'ships'. They
+					die very fast when enemies attack, but sheer numbers will do damage and prevent
+					retreats until they are cleared. Shielded weapon turrets can also be built cheap,
+					but do not need to be replaced after small attacks.</li>
+				<li>Small ships have the most balanced costs, however the more components of each type,
+					the more efficent they are at their task. Shields provide a greater maximum charge
+					when grouped, engines provide more mining together, and weapons provide more concentrated
+					damage when in large banks.</li>
+				<li>Construction occurs before movement, so if you think your mothership is going to
+					lead that newly constructed attack fleet, think again - the attack fleet will appear
+					in the sector the mothership just left, and your poor mothership will fight alone!
+				</li>
+			</ul>
+		</li>
+		<li id="Moves">
+			<h3>
+				Moves
+			</h3>
+			<ul>
+				<li>Only ships with at least one thruster may move.</li>
+				<li>Ships all move one hex in the direction requested in your orders.</li>
+			</ul>
+			Tips:
+			<ul>
+				<li>No matter how many thrusters a ship has, it can only move at most one hex per turn.
+					Thus, you might be tempted to install only one thruster on all your ships! However,
+					there are other reasons to add more thrusters (see <a href="#Combat">Combat</a>
+					and <a href="#Income">Income</a>). </li>
+			</ul>
+		</li>
+		<li id="AttacksOfOpportunity">
+			<h3>
+				Attacks of Opportunity
+			</h3>
+			<ul>
+				<li>Any ship which has retreated from a sector containing enemy ships may be fired upon.
+				</li>
+				<li>Additionally, newly constructed ships may be fired upon.</li>
+				<li>For damage mechanics see <a href="#Combat">Combat</a>.</li>
+			</ul>
+		</li>
+		<li id="ShieldCharging">
+			<h3>
+				Shield Charging
+			</h3>
+			<ul>
+				<li>Current shield points are divided by 2, rounding down.</li>
+				<li>Current shield points are then increased by the number of shield generators on the
+					ship.</li>
+				<li>Note: This means the maximum shield charge is #Generators * 2 - 1</li>
+				<li>1 gen = 1.0 shields per generator. 2 = 1.5 spg. 3=1.67 spg. 4= 1.75 spg, etc.</li>
+			</ul>
+		</li>
+		<li id="Combat">
+			<h3>
+				Combat
+			</h3>
+			<ul>
+				<li>Combat firing order (Initiative System)
+					<ul>
+						<li>Every ship gets one "lottery ticket"</li>
+						<li>Each thruster provides 2 extra "tickets"</li>
+						<li>The first time your ship's number is (randomly) called, you get to fire a full volley</li>
+						<li>Damage is applied immediately, so slow ships may be damaged or destroyed before
+							they can fire.</li>
+					</ul>
+				</li>
+				<li>Combat firing pattern (Targeting)
+					<ul>
+						<li>Each shot fires at a random enemy target.</li>
+						<li>A higher number of weapons per ship increases the chance of hitting the same target
+							repeatedly.</li>
+						<li>For those who care, the formula is 85% chance to choose a new target, to the power
+							of the number of weapons on the ship.</li>
+						<li>0 or 1 weapons: irrelevant. 2 weapons: 28% chance to "lock on" (100% - 85% ^ 2).
+							3 weapons: 39%. 4 weapons: 48%. 5 weapons: 56%. etc.</li>
+						<li>This "saving throw" must be rolled for each weapon on the ship; rolling it once
+							does not mean all your weapons will hit the same target!</li>
+						<li>All shots hit their targets; they never miss.</li>
+					</ul>
+				</li>
+				<li>Damage
+					<ul>
+						<li>All shots do 1 damage initially.</li>
+						<li>If damage to a ship makes the design invalid (not enough hull to hold it together
+							- see <a href="#Construction">Construction</a>) then more damage will be randomly
+							applied until the ship is legal or dead. (AKA Critical Hit)</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+		<li id="Income">
+			<h3>
+				Income
+			</h3>
+			<ul>
+				<li>Only the ship with the most thrusters in a sector generates any income.</li>
+				<li>Income is equal to sqrt(#thrusters) * Sector value for each resource.</li>
+				<li>E.g. a ship with 9 thrusters in a sector with 5 hull value will generate 3 * 5 =
+					15 hull resources.</li>
+				<li>If there is a tie between 2 players for fastest ship, nobody gets anything!</li>
+				<li>If you have the fastest ship but enemies are present, the income is divided by the
+					number of empires represented. (Blockade)</li>
+				<li>E.g. if 2 enemy fleets from different empires moved into the sector mentioned before,
+					but neither contained a ship of equal or greater speed to your miner, your mining
+					rate would be reduced by a factor of 3, to 5 hull.</li>
+				<li>Resources gathered are converted to components immediately and are available for
+					construction on your next turn.</li>
+			</ul>
+		</li>
+		<li id="Reports">
+			<h3>
+				Reports</h3>
+			<ul>
+				<li>Ships
+					<ul>
+						<li>All of your surviving ships report their stats in detail.</li>
+						<li>Enemy ships you can see report owner, approximate strength (sqrt(#components)), general status (normal/immobile/unarmed).</li>
+						<li>Enemy motherships can be identified in their reports.</li>
+						<li>You cannot see the names assigned to enemy ships by their owner; they get assigned generic names when you spot them based on their initial strength and status.</li>
+					</ul>
+				</li>
+				<li>Sectors
+					<ul>
+						<li>Any sectors containing a surviving ship of yours will report the resource values and enemy ships detected.</li>
+						<li>There are no "long range sensors" - you can only see where you actually have ships!</li>
+						<li>Any sectors you have gotten a report from on a prior turn remain "mapped" - you can see their resource values, but not enemy forces. (Fog of War)</li>
+						<li>If you enter an unmapped sector and all your ships are destroyed by the enemy, you will not get a report on resource values, only on enemy ships, since your ships did not have time to fully scout the system!</li>
+					</ul>
+				</li>
+				<li>Battles
+					<ul>
+						<li>When your ships engage in battle, you will get a detailed report on damage inflicted and ships destroyed.</li>
+						<li>The GUI will show this as a replay, combining multiple consecutive shots from one ship to the same target into "salvos" to simplify viewing.</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+	</ol>
+</body>
+</html>

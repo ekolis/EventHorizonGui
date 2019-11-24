@@ -1,0 +1,21 @@
+﻿<plr>
+<object name='gamecore'>
+	<queue name='admin'>
+		<add verb='addplayer'>
+			<param type='scalar' value='JOURNIER'/>
+			<param type='scalar' value='Empire of the 
+Fading Suns'/>
+		</add>
+		<add verb='addplayer'>
+			<param type='scalar' value='NICK'/>
+			<param type='scalar' value='Peasantry 
+Trogdocracy'/>
+		</add>
+		<add verb='initialize'>
+			<param type='scalar' value='4'/>
+			<param type='scalar' value='5'/>
+		</add>
+	</queue>
+</object>
+</plr>
+

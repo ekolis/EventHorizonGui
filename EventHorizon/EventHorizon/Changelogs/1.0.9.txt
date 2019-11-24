@@ -1,0 +1,6 @@
+﻿Version 1.0.9
+March 17, 2010
+
+Bug Fixes:
+- (Hopefully) fixed crash (possibly) caused by "phantom" fleets with zero ships!
+- Mothership/Armed/Mobile icons were being searched for in the working directory, not the application root directory as intended.

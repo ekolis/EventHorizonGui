@@ -1,0 +1,7 @@
+﻿Version 1.0.3
+February 23, 2010
+
+New Features:
+- HTML documentation based on Nick's EH Rules document.
+- Menus
+- Can now quit without saving.

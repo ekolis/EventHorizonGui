@@ -1,0 +1,18 @@
+﻿Version 1.0.2
+February 19, 2010
+
+New Features:
+- A savegame can be loaded by passing it in as a command line argument (e.g. EventHorizon.exe savegames\EDSJ_30_Nick.gam)
+- Application now has an icon.
+- Battle replay delay rate now depends in part on the number of rounds of combat, such that long battles will be more time-compressed than shorter battles.
+	A battle with 9 salvos will proceed at the same rate as in the old system, while longer battles will be time-compressed and shorter battles will be time-dilated.
+	Battles are time-compressed proportional to the square root of the number of salvos, so a battle with 4x as many salvos as another battle will play out in 2x the time, not 4x the time.
+	The slider still controls the base delay factor.
+
+Bug Fixes:
+- Shipsets were being loaded from a path relative to the savegame. Now they are loaded relative to the executable, as intended.
+- Crashes (such as would occur when loading an invalid savegame file) are now handled more gracefully.
+- Battle replays now start immediately when the play button is clicked, instead of waiting for the first timer tick.
+
+Misc. Changes
+- Ship death explosions are no longer scaled to the ship; they are always displayed full size. This should make distinguishing between damage and death of small ships easier.

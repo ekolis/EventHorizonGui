@@ -1,0 +1,32 @@
+﻿body
+{
+	background: black;
+	color: White;
+	font-family: Lucida Console, Monospace;
+}
+
+li
+{
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+}
+
+a:active
+{
+	color: #ff0000;
+}
+
+a:visited
+{
+	color: #80bfbf;
+}
+
+a:hover
+{
+	color: #00ffff;
+}
+
+a:link
+{
+	color: #00dfdf;
+}

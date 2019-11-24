@@ -1,0 +1,11 @@
+﻿Version 1.0.15
+April 27, 2010
+
+Bug Fixes:
+- Wraparound on the X-axis is fixed. Ship arrows should no longer appear in the wrong place, or crash the game when they arrive on the other side.
+
+Misc. Changes:
+- Ship images are no longer preloaded when the game is loaded.
+	While this will create a slight pause when clicking any sector or ship for the first time, it greatly reduces the initial loading time, which was getting excessive in the later stages of the game!
+- Each ship no longer has its own image created for it; instead, images are looked up based on the ship's size and status.
+	This should reduce the negative impact of no longer preloading images, as well as save memory.

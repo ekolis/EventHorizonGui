@@ -1,0 +1,28 @@
+﻿Version 1.1.0
+September ??, 2018
+
+New Features:
+- "Infinite" scrolling replaces "ghosty" hexes.
+	-You can now scroll as far as you want, and the game will seamlessly snap back to the other side of the map for you if you go too far!
+- You can now choose music tracks to play in a variety of game scenarios by placing them in the appropriate subdirectories of the Music directory.
+	- Supported file formats: mp3, wav, aiff/aif/aifc, ogg
+- Added "Outcome" column to the battle list: victory/defeat/stalemate.
+- Battle and income lists are now sortable.
+- The map now zooms to the cursor, rather than the center of the map.
+
+Misc. Changes:
+- Hexes now look like hexes, not circles.
+- Movement arrows no longer obscure the sector names.
+- Minimum and maximum zoom levels of 64 and 512 pixels per hex respectively are now enforced.
+	- The minimum is specifically to prevent zooming out from causing the new infinite-scrolling map from lagging too much!
+- The battle replay now starts automatically when the battle replay window opens.
+- The battle replay does not automatically reset to the beginning when it ends; instead, it does so when you click Play after it ends.
+- Ships are now sorted by default in the following fashion: motherships, mobile ships, armed ships, large ships.
+- A friendlier error message is displayed when the savegame being loaded does not exist.
+
+Bug Fixes:
+- The global ship list will now remain if you click another sector while it is active.
+
+Notes:
+- Updated to .NET Framework v4.7.2; you may need to install this from Microsoft at https://www.microsoft.com/net/download/dotnet-framework-runtime.
+	- If necessary framework version may be downgraded again for Mono support.

@@ -1,0 +1,6 @@
+﻿Version 1.0.17
+April 30, 2010
+
+Bug Fixes:
+TODO - Trying to move a ship to a ghosted sector on the left or right side of the map would not work.
+TODO - Trying to move a ship to a a sector on the opposite side of the map would crash the game.

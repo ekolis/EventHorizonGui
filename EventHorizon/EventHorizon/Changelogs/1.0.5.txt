@@ -1,0 +1,11 @@
+﻿Version 1.0.5
+March 8, 2010
+
+New Features:
+- New shipset added: SomeOtherSet created by Jon Sorenson (se5a) (OK, I made up the shipset name because he didn't give it one! And it was supposed to be in v1.0.4... forgot to include it, whoops!)
+
+Bug Fixes:
+- Clicking the design list while editing a new ship design no longer crashes the game.
+
+Misc. Changes:
+- Invalid ship designs (those lacking both weapons and thrusters) won't be saved to the plr file anymore, either as designs or as construction orders.

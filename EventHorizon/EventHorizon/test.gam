@@ -1,0 +1,368 @@
+﻿<GAM>
+	<object id='PSector (-1,-1)'>
+		<attribute name='X'>
+			<value type='scalar' value='-1'/>
+		</attribute>
+		<attribute name='name'>
+			<value type='scalar' value='Sector (-1,-1)'/>
+		</attribute>
+		<attribute name='Y'>
+			<value type='scalar' value='-1'/>
+		</attribute>
+	</object>
+	<object id='PSector (-1,1)'>
+		<attribute name='X'>
+			<value type='scalar' value='-1'/>
+		</attribute>
+		<attribute name='name'>
+			<value type='scalar' value='Sector (-1,1)'/>
+		</attribute>
+		<attribute name='Y'>
+			<value type='scalar' value='1'/>
+		</attribute>
+	</object>
+	<object id='PSector (1,-2)'>
+		<attribute name='X'>
+			<value type='scalar' value='1'/>
+		</attribute>
+		<attribute name='name'>
+			<value type='scalar' value='Sector (1,-2)'/>
+		</attribute>
+		<attribute name='Y'>
+			<value type='scalar' value='-2'/>
+		</attribute>
+	</object>
+	<object id='PSector (1,0)'>
+		<attribute name='X'>
+			<value type='scalar' value='1'/>
+		</attribute>
+		<attribute name='name'>
+			<value type='scalar' value='Sector (1,0)'/>
+		</attribute>
+		<attribute name='Y'>
+			<value type='scalar' value='0'/>
+		</attribute>
+	</object>
+	<object id='PSector (1,2)'>
+		<attribute name='X'>
+			<value type='scalar' value='1'/>
+		</attribute>
+		<attribute name='name'>
+			<value type='scalar' value='Sector (1,2)'/>
+		</attribute>
+		<attribute name='Y'>
+			<value type='scalar' value='2'/>
+		</attribute>
+	</object>
+	<object id='PSector (-1,2)'>
+		<attribute name='X'>
+			<value type='scalar' value='-1'/>
+		</attribute>
+		<attribute name='name'>
+			<value type='scalar' value='Sector (-1,2)'/>
+		</attribute>
+		<attribute name='Y'>
+			<value type='scalar' value='2'/>
+		</attribute>
+	</object>
+	<object id='PSector (1,1)'>
+		<attribute name='X'>
+			<value type='scalar' value='1'/>
+		</attribute>
+		<attribute name='name'>
+			<value type='scalar' value='Sector (1,1)'/>
+		</attribute>
+		<attribute name='Y'>
+			<value type='scalar' value='1'/>
+		</attribute>
+	</object>
+	<object id='PSector (0,1)'>
+		<attribute name='X'>
+			<value type='scalar' value='0'/>
+		</attribute>
+		<attribute name='name'>
+			<value type='scalar' value='Sector (0,1)'/>
+		</attribute>
+		<attribute name='Y'>
+			<value type='scalar' value='1'/>
+		</attribute>
+	</object>
+	<object id='PSector (0,-1)'>
+		<attribute name='X'>
+			<value type='scalar' value='0'/>
+		</attribute>
+		<attribute name='name'>
+			<value type='scalar' value='Sector (0,-1)'/>
+		</attribute>
+		<attribute name='Y'>
+			<value type='scalar' value='-1'/>
+		</attribute>
+	</object>
+	<object id='PSector (1,-1)'>
+		<attribute name='X'>
+			<value type='scalar' value='1'/>
+		</attribute>
+		<attribute name='name'>
+			<value type='scalar' value='Sector (1,-1)'/>
+		</attribute>
+		<attribute name='Y'>
+			<value type='scalar' value='-1'/>
+		</attribute>
+	</object>
+	<object id='PSector (0,-2)'>
+		<attribute name='X'>
+			<value type='scalar' value='0'/>
+		</attribute>
+		<attribute name='name'>
+			<value type='scalar' value='Sector (0,-2)'/>
+		</attribute>
+		<attribute name='Y'>
+			<value type='scalar' value='-2'/>
+		</attribute>
+	</object>
+	<object id='PSector (-2,2)'>
+		<attribute name='X'>
+			<value type='scalar' value='-2'/>
+		</attribute>
+		<attribute name='name'>
+			<value type='scalar' value='Sector (-2,2)'/>
+		</attribute>
+		<attribute name='Y'>
+			<value type='scalar' value='2'/>
+		</attribute>
+	</object>
+	<object id='PSector (-1,0)'>
+		<attribute name='X'>
+			<value type='scalar' value='-1'/>
+		</attribute>
+		<attribute name='name'>
+			<value type='scalar' value='Sector (-1,0)'/>
+		</attribute>
+		<attribute name='Y'>
+			<value type='scalar' value='0'/>
+		</attribute>
+	</object>
+	<object id='PSector (0,2)'>
+		<attribute name='X'>
+			<value type='scalar' value='0'/>
+		</attribute>
+		<attribute name='name'>
+			<value type='scalar' value='Sector (0,2)'/>
+		</attribute>
+		<attribute name='Y'>
+			<value type='scalar' value='2'/>
+		</attribute>
+	</object>
+	<object id='PSector (-2,-2)'>
+		<attribute name='X'>
+			<value type='scalar' value='-2'/>
+		</attribute>
+		<attribute name='name'>
+			<value type='scalar' value='Sector (-2,-2)'/>
+		</attribute>
+		<attribute name='Y'>
+			<value type='scalar' value='-2'/>
+		</attribute>
+	</object>
+	<object id='PMothership'>
+		<attribute name='thruster'>
+			<value type='scalar' value='9'/>
+		</attribute>
+		<attribute name='owner'>
+			<value type='scalar' value='Empire of the 
+Fading Suns'/>
+		</attribute>
+		<attribute name='location'>
+			<value type='object' value='PSector (0,0)'/>
+		</attribute>
+		<attribute name='shield'>
+			<value type='scalar' value='12'/>
+		</attribute>
+		<attribute name='name'>
+			<value type='scalar' value='Mothership'/>
+		</attribute>
+		<attribute name='hull'>
+			<value type='scalar' value='230'/>
+		</attribute>
+		<attribute name='weapon'>
+			<value type='scalar' value='9'/>
+		</attribute>
+		<attribute name='previousLocation'>
+			<value type='object' value='PSector (0,0)'/>
+		</attribute>
+		<attribute name='shieldcharge'>
+			<value type='scalar' value='18'/>
+		</attribute>
+		<attribute name='isMothership'>
+			<value type='scalar' value='1'/>
+		</attribute>
+	</object>
+	<object id='PSector (-2,1)'>
+		<attribute name='X'>
+			<value type='scalar' value='-2'/>
+		</attribute>
+		<attribute name='name'>
+			<value type='scalar' value='Sector (-2,1)'/>
+		</attribute>
+		<attribute name='Y'>
+			<value type='scalar' value='1'/>
+		</attribute>
+	</object>
+	<object id='PSector (-1,-2)'>
+		<attribute name='X'>
+			<value type='scalar' value='-1'/>
+		</attribute>
+		<attribute name='name'>
+			<value type='scalar' value='Sector (-1,-2)'/>
+		</attribute>
+		<attribute name='Y'>
+			<value type='scalar' value='-2'/>
+		</attribute>
+	</object>
+	<object id='PSector (-2,0)'>
+		<attribute name='X'>
+			<value type='scalar' value='-2'/>
+		</attribute>
+		<attribute name='name'>
+			<value type='scalar' value='Sector (-2,0)'/>
+		</attribute>
+		<attribute name='Y'>
+			<value type='scalar' value='0'/>
+		</attribute>
+	</object>
+	<object id='PSector (-2,-1)'>
+		<attribute name='X'>
+			<value type='scalar' value='-2'/>
+		</attribute>
+		<attribute name='name'>
+			<value type='scalar' value='Sector (-2,-1)'/>
+		</attribute>
+		<attribute name='Y'>
+			<value type='scalar' value='-1'/>
+		</attribute>
+	</object>
+	<object id='PSector (0,0)'>
+		<attribute name='Y'>
+			<value type='scalar' value='0'/>
+		</attribute>
+		<attribute name='minedHull'>
+			<value type='scalar' value='45'/>
+		</attribute>
+		<attribute name='minedShield'>
+			<value type='scalar' value='9'/>
+		</attribute>
+		<attribute name='shipList'>
+			<value type='object' value='PMothership'/>
+		</attribute>
+		<attribute name='weaponValue'>
+			<value type='scalar' value='6'/>
+		</attribute>
+		<attribute name='shieldValue'>
+			<value type='scalar' value='3'/>
+		</attribute>
+		<attribute name='teamsShips'>
+			<value type='scalar' value='1'/>
+		</attribute>
+		<attribute name='X'>
+			<value type='scalar' value='0'/>
+		</attribute>
+		<attribute name='name'>
+			<value type='scalar' value='Sector (0,0)'/>
+		</attribute>
+		<attribute name='hullValue'>
+			<value type='scalar' value='15'/>
+		</attribute>
+		<attribute name='minedWeapon'>
+			<value type='scalar' value='18'/>
+		</attribute>
+		<attribute name='teamsName'>
+			<value type='scalar' value='Empire of the 
+Fading Suns'/>
+		</attribute>
+		<attribute name='teamsCount'>
+			<value type='scalar' value='1'/>
+		</attribute>
+		<attribute name='minedThruster'>
+			<value type='scalar' value='9'/>
+		</attribute>
+		<attribute name='teamsMass'>
+			<value type='scalar' value='260'/>
+		</attribute>
+		<attribute name='thrusterValue'>
+			<value type='scalar' value='3'/>
+		</attribute>
+	</object>
+	<object id='Pme'>
+		<attribute name='sectorList'>
+			<value type='object' value='PSector (-1,-1)'/>
+			<value type='object' value='PSector (-1,1)'/>
+			<value type='object' value='PSector (1,-2)'/>
+			<value type='object' value='PSector (1,0)'/>
+			<value type='object' value='PSector (1,2)'/>
+			<value type='object' value='PSector (-1,2)'/>
+			<value type='object' value='PSector (1,1)'/>
+			<value type='object' value='PSector (0,1)'/>
+			<value type='object' value='PSector (0,-1)'/>
+			<value type='object' value='PSector (1,-1)'/>
+			<value type='object' value='PSector (0,-2)'/>
+			<value type='object' value='PSector (-2,2)'/>
+			<value type='object' value='PSector (-1,0)'/>
+			<value type='object' value='PSector (0,2)'/>
+			<value type='object' value='PSector (-2,-2)'/>
+			<value type='object' value='PSector (-2,1)'/>
+			<value type='object' value='PSector (-1,-2)'/>
+			<value type='object' value='PSector (-2,0)'/>
+			<value type='object' value='PSector (-2,-1)'/>
+			<value type='object' value='PSector (0,0)'/>
+		</attribute>
+		<attribute name='mothership'>
+			<value type='object' value='PMothership'/>
+		</attribute>
+		<attribute name='teamName'>
+			<value type='scalar' value='Empire of the 
+Fading Suns'/>
+		</attribute>
+		<attribute name='name'>
+			<value type='scalar' value='me'/>
+		</attribute>
+		<attribute name='availableWeapon'>
+			<value type='scalar' value='38'/>
+		</attribute>
+		<attribute name='combatList'>
+		</attribute>
+		<attribute name='availableShield'>
+			<value type='scalar' value='19'/>
+		</attribute>
+		<attribute name='shipList'>
+			<value type='object' value='PMothership'/>
+		</attribute>
+		<attribute name='incomeLocationList'>
+			<value type='object' value='PSector (0,0)'/>
+		</attribute>
+		<attribute name='eventList'>
+			<value type='scalar' value='Our mothership has arrived in a sector of space rich in resources.  We should build some support ships as soon as possible.'/>
+		</attribute>
+		<attribute name='availableHull'>
+			<value type='scalar' value='145'/>
+		</attribute>
+		<attribute name='availableThruster'>
+			<value type='scalar' value='19'/>
+		</attribute>
+	</object>
+	<object id='Vnotes'>
+	</object>
+	<object id='Vroot'>
+		<attribute name='mapwidth'>
+			<value type='scalar' value='4'/>
+		</attribute>
+		<attribute name='turn'>
+			<value type='scalar' value='1'/>
+		</attribute>
+		<attribute name='mapheight'>
+			<value type='scalar' value='5'/>
+		</attribute>
+		<attribute name='playerObject'>
+			<value type='object' value='Pme'/>
+		</attribute>
+	</object>
+</GAM>

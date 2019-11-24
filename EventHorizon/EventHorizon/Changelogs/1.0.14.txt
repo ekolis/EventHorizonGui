@@ -1,0 +1,11 @@
+﻿Version 1.0.14
+March 29, 2010
+
+New Features:
+- Selecting a sector will highlight it on the map.
+- Selecting a battle or income location will select the sector in which the battle or mining occurred.
+
+Bug Fixes:
+- Crash introduced in 1.0.13 regarding ships without owners trying to check their owner's team name to filter it out of their names should be fixed.
+- Derelict ships (those destroyed while still having hull or shield generators) no longer appear in the ship list.
+- Sectors' borders no longer overlap on the map.

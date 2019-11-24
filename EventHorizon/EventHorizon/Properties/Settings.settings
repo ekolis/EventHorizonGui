@@ -1,0 +1,36 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="EventHorizon.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="StrategicMusicPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Strategic</Value>
+    </Setting>
+    <Setting Name="BattleFavorableMusicPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BattleFavorable</Value>
+    </Setting>
+    <Setting Name="BattleEqualMusicPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BattleEqual</Value>
+    </Setting>
+    <Setting Name="BattleUnfavorableMusicPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BattleUnfavorable</Value>
+    </Setting>
+    <Setting Name="BattleEndVictoryMusicPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BattleEndVictory</Value>
+    </Setting>
+    <Setting Name="BattleEndStalemateMusicPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BattleEndStalemate</Value>
+    </Setting>
+    <Setting Name="BattleEndDefeatMusicPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BattleEndDefeat</Value>
+    </Setting>
+    <Setting Name="MusicFadeSeconds" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="BattleFavorableThreshold" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">50</Value>
+    </Setting>
+    <Setting Name="BattleUnfavorableThreshold" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">50</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

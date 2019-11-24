@@ -1,0 +1,11 @@
+﻿Version 1.0.19
+April 28, 2012
+
+New Features:
+- When the map is selected, you can now do the following:
+	- Scroll with the arrow keys
+	- Zoom in with Page Up
+	- Zoom out with Page Down
+
+Bug Fixes:
+- The text of the combat replay window's buttons is now visible when using "classic" Windows themes.

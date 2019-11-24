@@ -1,0 +1,14 @@
+﻿Version 1.0.7
+March 15, 2010
+
+New Features:
+- Right-clicking a sector on the main map orders all selected ships to move there (if it's 1 hex away) or halt (if it's where they're at now). No effect if the sector isn't within 1 hex of the ships.
+
+Bug Fixes:
+- Viewing "battles" with zero salvos (e.g. between unarmed ships) would crash the game. Now a message saying that no shots were fired is displayed instead.
+- Sector names are no longer blank on the income list. (Bug was introduced when sector renaming was added.)
+- Clicking the ship-move-orders map with no ships selected no longer crashes the game.
+
+Misc. Changes:
+- No more annoying warnings will be displayed for missing shipset images, unless the default friendly/enemy shipset has missing images.
+- Selecting a sector no longer automatically selects all ships in that sector.

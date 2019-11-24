@@ -1,0 +1,8 @@
+﻿Version 1.0.6
+March 9, 2010
+
+New Features:
+- Selecting multiple friendly ships in a sector will display their total component breakdown stats.
+
+Bug Fixes:
+- Shipsets were still sometimes being loaded from the wrong directory. Oops!

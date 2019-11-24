@@ -1,0 +1,5 @@
+﻿Version 1.0.16
+April 28, 2010
+
+Bug Fixes:
+- The ghosted sectors off the left/right sides of the map were displaying in incorrect locations.

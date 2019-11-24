@@ -1,0 +1,5 @@
+﻿Version 1.0.10
+March 20, 2010
+
+Bug Fixes:
+- (Hopefully) fixed crash (probably) caused by ships moving off the left and right sides of the map and getting invalid coordinates.

@@ -1,0 +1,12 @@
+﻿Version 1.0.18
+June 9, 2010
+
+New Features:
+- "Nostic" shipset, a silly set with a nasal theme!
+- The ship list can now be toggled between local (the standard view) and global (all ships in the game, regardless of location) mode.
+
+Bug Fixes:
+- Customized sector names now appear in the battle replay window title bar.
+
+Misc. Changes:
+- You can now issue move commands even when some enemy ships are selected in addition to your own ships. The enemy ships will of course ignore your orders!

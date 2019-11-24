@@ -1,0 +1,9 @@
+﻿Version 1.0.13
+March 25, 2010
+
+Bug Fixes:
+- Moving ships off the right or left side of the map should now work properly.
+
+Misc. Changes:
+- The "default" enemy ship names no longer start with the empire name.
+- Log messages that contain sector names will have the "Sector (X,Y)" text replaced with the custom name of the sector if one has been assigned.
